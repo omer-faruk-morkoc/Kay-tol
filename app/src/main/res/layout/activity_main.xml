@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:app="http://schemas.android.com/apk/res-auto"
+xmlns:tools="http://schemas.android.com/tools"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+android:background="@drawable/background">
+
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_centerInParent="true"
+    android:layout_margin="10dp"
+    android:orientation="vertical">
+
+    <ImageView
+        android:layout_width="140dp"
+        android:layout_height="140dp"
+        android:layout_gravity="center"
+        android:layout_marginBottom="17dp"
+
+        android:background="@drawable/edit_text_background"
+        android:scaleType="fitCenter"
+        android:src="@drawable/code_android_logo" />
+
+    <TextView
+        android:id="@+id/Txtunut"
+        android:layout_width="200dp"
+        android:layout_height="20dp"
+        android:layout_marginLeft="105dp"
+        android:layout_marginBottom="20dp"
+
+        android:text="Profil Resmi Ekle"
+        android:textSize="18sp"
+        android:textColor="#007FFF"/>
+    <EditText
+        android:id="@+id/TxtKullaniciad"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:layout_marginBottom="10dp"
+        android:background="@drawable/edit_text_background"
+        android:drawablePadding="10dp"
+        android:drawableStart="@drawable/ic_kullanici"
+        android:ems="10"
+        android:hint="Kullanıcı Adı:"
+        android:inputType="textPersonName"
+        android:padding="10dp"
+        android:textColor="@color/Lacivert"
+        android:textColorHint="@color/HintRengi"
+        android:textSize="21sp"
+        android:drawableLeft="@drawable/ic_kullanici" />
+
+    <EditText
+        android:id="@+id/TxtSifreler"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:layout_marginBottom="10dp"
+        android:background="@drawable/edit_text_background"
+        android:drawablePadding="10dp"
+        android:drawableStart="@drawable/ic_kilit"
+        android:ems="10"
+        android:hint="Şifre:"
+        android:inputType="textPassword"
+        android:padding="10dp"
+        android:textColor="@color/Lacivert"
+        android:textColorHint="@color/HintRengi"
+        android:textSize="21sp"
+        android:drawableLeft="@drawable/ic_kilit"/>
+
+    <EditText
+        android:id="@+id/TxtEmail"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:layout_marginBottom="10dp"
+        android:background="@drawable/edit_text_background"
+        android:drawablePadding="10dp"
+        android:drawableStart="@drawable/ic_mail"
+        android:ems="10"
+        android:hint="E-mail:"
+        android:inputType="textEmailAddress"
+        android:padding="10dp"
+        android:textColor="@color/Lacivert"
+        android:textColorHint="@color/HintRengi"
+        android:textSize="21sp"
+        android:drawableLeft="@drawable/ic_mail"
+        android:autofillHints="" />
+    <EditText
+        android:id="@+id/TxtTelefon"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:layout_marginBottom="10dp"
+        android:background="@drawable/edit_text_background"
+        android:drawablePadding="10dp"
+        android:drawableStart="@drawable/ic_tel"
+        android:ems="10"
+        android:hint="Telefon:"
+        android:inputType="text|phone"
+        android:padding="10dp"
+        android:textColor="@color/Lacivert"
+        android:textColorHint="@color/HintRengi"
+        android:textSize="21sp"
+        android:drawableLeft="@drawable/ic_tel" />
+
+    <Button
+        android:id="@+id/Btn_KayitOl"
+        android:layout_width="match_parent"
+        android:layout_marginTop="15dp"
+        android:layout_height="48dp"
+        android:layout_marginBottom="25dp"
+        android:background="@drawable/button_red"
+        android:text="Kayıt Ol"
+        android:textAllCaps="false"
+        android:textColor="@color/Beyaz"
+        android:textSize="21sp" />
+
+    <Button
+        android:id="@+id/BtnÇıkış"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:background="@drawable/button_background"
+        android:text="Çıkış"
+        android:textColor="@color/Beyaz" />
+</LinearLayout>
+
+</RelativeLayout>
